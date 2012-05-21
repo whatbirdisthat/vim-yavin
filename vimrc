@@ -1,7 +1,15 @@
+" (c) 2012 Planet Earth
+" 
+" This vimrc is not meant to be compatible ever
+" and is meant for running on trunk vim with trunk scripts
+set nocompatible
+" Pathogen is trunk too so we load it manually
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 "call pathogen#runtime_append_all_bundles()
-let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage"]
+"let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage", "vim-vividchalk"]
+let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage", "vim-abolish", "gundo", "vim-repeat", "vim-unimpaired"]
 call pathogen#infect()
+
 syntax on
 filetype on
 filetype indent on
@@ -10,7 +18,6 @@ filetype plugin on
 colo 256-grayvim
 
 set list listchars=tab:··,trail:·,extends:»
-set nocompatible
 set backspace=indent,eol,start
 set number
 set smartindent autoindent
