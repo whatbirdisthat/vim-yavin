@@ -3,20 +3,22 @@ YAVIN
 
 Yet another vimrc ide node
 
+
+`this script assumes you have no .vimrc`
+
+
     git clone git://github.com/whatbirdisthat/vim-yavin.git ~/.vim
     cd .vim
     git submodule init
     git submodule update
-
-If this is a fresh/unattended install add this line to the script:
-
-    ln -s ~/.vim/vimrc ~/.vimrc
-
-Make sure you back up your existing .vimrc if you have one.
+    ln -s ~/.vim/yavin/vimrc ~/.vimrc
 
 Yavin is about one thing: the TEXT . No fake metal borders,
 no 'window', no 'menu', no 'toolbar', no 'death-star' -
 just the actual TEXT.
+
+Yavin defines some keys and behaviours in `yavin/vimrc` that are
+geared towards use by those who don't like mice or bright lights.
 
 Browse the `bundle` dir to see which scripts are collected by
 Yavin.
