@@ -28,9 +28,6 @@
 [submodule "/home/corus-dev/.vim/bundle/vim-endwise"]
 	path = /home/corus-dev/.vim/bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise.git
-[submodule "/home/corus-dev/.vim/bundle/easygrep"]
-	path = /home/corus-dev/.vim/bundle/easygrep
-	url = https://github.com/vim-scripts/EasyGrep.git
 [submodule "/home/corus-dev/.vim/bundle/vcscommand"]
 	path = /home/corus-dev/.vim/bundle/vcscommand
 	url = https://github.com/vim-scripts/vcscommand.vim.git
