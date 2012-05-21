@@ -1,7 +1,7 @@
 YAVIN
 Yet another vimrc ide node
 
-git clone me into ~/.vim
+git clone git://github.com/whatbirdisthat/vim-yavin.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 
 
@@ -30,9 +30,10 @@ Collected here are some highly useful tools for vim.
 17  vim-unimpaired
 18  vim-vividchalk
 
+
 I don't always have all of these scripts turned on (eg why run
 two commenters?) but I like them all the same, and it costs nothing
-to subscribe to their trunk with Github.
+to subscribe to their trunk (or someone's mirror) with Github.
 
 
 So Yavin is a vim ide, the focus is on responsiveness. And a nice

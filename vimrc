@@ -23,7 +23,6 @@ set smartindent autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-"set pastetoggle=<CTRL-v>
 set wrap!
 set directory=/tmp
 set hidden
@@ -56,15 +55,6 @@ set shell=bash
 set autoread                  " watch for file changes
 "set autochdir                 " change working dir to file dir
 
-"Now we just enable the menu and pydoc preview to get the most useful information out of the code completion:
-"set completeopt=menuone,longest,preview
-" Set Omni completion filetype associations
-"autocmd FileType html :set omnifunc=htmlcomplete#CompleteTags
-"au FileType python set omnifunc=pythoncomplete#Complete
-"autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
-"au FileType xhtml,xml so ~/.vim/ftplugin/html_autoclosetag.vim
-
-let g:CommandTMaxHeight=6
 let g:EasyGrepHidden=1
 let g:EasyGrepIgnoreCase=0
 let g:EasyGrepRecursive=1
@@ -72,11 +62,6 @@ let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.pyc$', '\.pyo$']
 let g:NERDTreeDirArrows=1
 let g:NERDTreeMinimalUI=1
-let g:pydiction_location = '/home/corus-dev/.vim/pydiction-1.2/complete-dict'
-let Tlist_Use_Left_Window = 0
-let Tlist_Use_Horiz_Window = 0
-let Tlist_Use_Right_Window = 1
-let Tlist_WinWidth = 42
 let g:syntastic_auto_loc_list=1
 
 " Set visual mode indent
@@ -86,10 +71,9 @@ vnoremap > >gv
 "set tags=tags;/
 
 "w0 windows-off: hides all screen decorations
-map <leader>w0 :NERDTreeClose<CR>:QuickfixsignsDisable<CR>:set number!<CR>
+map <leader>w0 :NERDTreeClose<CR>:QuickfixsignsDisable<CR>:set nonumber<CR>:only<CR>:!<CR><CR>
 "w1 windows-on: shows all screen decorations
-map <leader>w1 :NERDTree<CR>:QuickfixsignsEnable<CR>:set number<CR>
-"
+map <leader>w1 :QuickfixsignsEnable<CR>:set number<CR>:NERDTree %<CR>:wincmd p<CR>
 "next buffer
 nnoremap <silent> <F3> :bp<CR>
 "prev buffer
@@ -111,18 +95,15 @@ map <leader>rw :%s/\s*$//<CR>
 "rl remove (empty) lines
 map <leader>rl :g/^$/d<CR>
 
-"nnoremap <silent> <F8> :TlistToggle<CR>
 map <leader>n :execute 'NERDTreeToggle ' . getcwd()<CR>
 
-"autocmd VimEnter * TlistOpen
+"open NERDTree at startup
 autocmd VimEnter * NERDTree
 "switch to buffer window on open
 "autocmd VimEnter * wincmd p
 " if the last window is NERDTree, then close Vim
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif 
 
-" Set current working directory based on current file.
-"autocmd BufEnter * lcd %:p:h
 "change the signs gutter background to vimgray-256 bgcolor
 :hi SignColumn ctermbg=235
 
