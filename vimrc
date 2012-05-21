@@ -6,8 +6,7 @@ set nocompatible
 " Pathogen is trunk too so we load it manually
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 "call pathogen#runtime_append_all_bundles()
-"let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage", "vim-vividchalk"]
-let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage", "vim-abolish", "gundo", "vim-repeat", "vim-unimpaired"]
+let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage", "vim-abolish", "gundo", "vim-repeat", "vim-unimpaired", "yavin"]
 call pathogen#infect()
 
 syntax on
