@@ -1,6 +1,6 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 "call pathogen#runtime_append_all_bundles()
-let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage", "vim-vividchalk"]
+let g:pathogen_disabled = ["nerdcommenter", "vim-afterimage"]
 call pathogen#infect()
 syntax on
 filetype on
