@@ -9,19 +9,17 @@ Yavin is about one thing: the TEXT . No fake metal borders,
 no 'window', no 'menu', no 'toolbar', no 'death-star' -
 just the actual TEXT.
 
-Yavin is also a celebration of the usefulness of GitHub.
-
 Collected here are some highly useful tools for vim.
 
-1 easygrep
-2 gundo
-3 nerdcommenter
-4 nertree
-5 quickfixsigns
-6 syntastic
-7 tabular
-8 vcscommand
-9 vim-abolish
+01  easygrep
+02  gundo
+03  nerdcommenter
+04  nertree
+05  quickfixsigns
+06  syntastic
+07  tabular
+08  vcscommand
+09  vim-abolish
 10  vim-afterimage
 11  vim-commentary
 12  vim-endwise
@@ -37,17 +35,20 @@ two commenters?) but I like them all the same, and it costs nothing
 to subscribe to their trunk with Github.
 
 
-So Yavin is a vim ide, the focus is on responsiveness. 
+So Yavin is a vim ide, the focus is on responsiveness. And a nice
+dark screen.
 
 What Yavin needs:
   1 Goto definition
     Being able to <leader>G jump to a function definition
+    (workaround: use grep)
   2 Deep autocomplete popups
     Being able to tell vim where ZendFramework, Boost, pysvn etc
     are.
+    (workaround: use grep)
   3 *doc Help Window
     Check for any *doc for the current function/class/namespace
+    (guess what the workaround is)
   4 Refactoring
       ... see this is where we just command-tab over to netbeans
-
 
