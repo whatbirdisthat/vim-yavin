@@ -11,19 +11,19 @@ Yet another vimrc ide node
     cd .vim
     git submodule init
     git submodule update
-    ln -s ~/.vim/yavin/vimrc ~/.vimrc
+    ln -s ~/.vim/bundle/yavin/vimrc ~/.vimrc
 
 Yavin is about one thing: the TEXT . No fake metal borders,
 no 'window', no 'menu', no 'toolbar', no 'death-star' -
 just the actual TEXT.
 
-Yavin defines some keys and behaviours in `yavin/vimrc` that are
+Yavin defines some keys and behaviours in `bundle/yavin/vimrc` that are
 geared towards use by those who don't like mice or bright lights.
 
 Browse the `bundle` dir to see which scripts are collected by
 Yavin.
 
-You might not always have all of these scripts turned on (eg why run
+You might not always have all of these scripts enabled (eg why run
 two commenters?) but I like them all the same, and it costs nothing
 to subscribe to their trunk (or someone's mirror) with Github.
 
