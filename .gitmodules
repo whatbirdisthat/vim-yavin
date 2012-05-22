@@ -55,3 +55,6 @@
 [submodule "bundle/elrodeo"]
 	path = bundle/elrodeo
 	url = git://github.com/chmllr/vim-colorscheme-elrodeo.git
+[submodule "bundle/yavin/vim-colorscheme-converter"]
+	path = bundle/yavin/vim-colorscheme-converter
+	url = git://github.com/kanru/vim-colorscheme-converter.git
