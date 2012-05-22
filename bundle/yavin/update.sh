@@ -1,7 +1,8 @@
 #!/bin/sh
 CPWD=$PWD
-cd .vim
+cd ~/.vim
 git pull
 git submodule init
 git submodule update
 cd $CPWD
+
