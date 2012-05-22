@@ -4,7 +4,7 @@ YAVIN
 Yet another vimrc ide node
 
     git clone git://github.com/whatbirdisthat/vim-yavin.git ~/.vim
-    ~/.vim/bundles/yavin/install.sh
+    ~/.vim/bundle/yavin/install.sh
 
 Which is: `this script assumes you have no .vimrc`
 
