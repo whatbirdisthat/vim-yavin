@@ -29,9 +29,10 @@ dark screen.
 What Yavin needs:
 =================
 
-* Goto definition
+* Jump to definition/declaration/inheritance/usage
 
-        Being able to <leader>G jump to a function definition
+        To <leader>J jump to function definition,
+        structure declaration, inheritance traversal, usages
         (workaround: use grep)
 * Deep autocomplete popups
 
