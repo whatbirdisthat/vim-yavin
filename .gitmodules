@@ -1,6 +1,3 @@
-[submodule "bundle/easygrep"]
-	path = bundle/easygrep
-	url = git://github.com/vim-scripts/EasyGrep.git
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
