@@ -4,9 +4,9 @@ YAVIN
 Yet another vimrc ide node
 
     git clone git://github.com/whatbirdisthat/vim-yavin.git ~/.vim
-    ~/.vim/bundles/yavin/install.sh
+    ~/.vim/bundle/yavin/install.sh
 
-Which is: `this script assumes you have no .vimrc`
+`this script assumes you have no .vimrc`
 
 Yavin is about one thing: the TEXT . No fake metal borders,
 no 'window', no 'menu', no 'toolbar', no 'death-star' -
@@ -29,9 +29,10 @@ dark screen.
 What Yavin needs:
 =================
 
-* Goto definition
+* Jump to definition/declaration/inheritance/usage
 
-        Being able to <leader>G jump to a function definition
+        To <leader>J jump to function definition,
+        structure declaration, inheritance traversal, usages
         (workaround: use grep)
 * Deep autocomplete popups
 
