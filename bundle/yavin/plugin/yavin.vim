@@ -33,7 +33,7 @@ map <leader>rw :%s/\s*$//<CR>
 map <leader>rl :g/^$/d<CR>
 
 map <leader>lul :cfile ~/logs/upload.log<CR>:copen<CR>:set winheight=50<CR>:cwindow<CR>G<CR>
-map <leader>lll :cfile ~/logs/local.log<CR>:copen<CR>:wincmd _<CR>:cwindow<CR>G<CR>
+map <leader>lll :cfile ~/logs/local.log<CR>:copen<CR>:set winheight=50<CR>:cwindow<CR>G<CR>
 map <leader>ccc :cfile ~/logs/central.log<CR>:copen<CR>:set winheight=50<CR>:cwindow<CR>G<CR>
 
 map <leader>LL :lwindow<CR>
