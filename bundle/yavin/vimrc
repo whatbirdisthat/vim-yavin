@@ -63,5 +63,8 @@ let g:NERDTreeDirArrows=1
 let g:NERDTreeMinimalUI=1
 let g:syntastic_auto_loc_list=1
 
+let g:dgbPavimPort = 9009
+let g:dbgPavimBreakAtEntry = 0
+
 "set tags=tags;/
 
