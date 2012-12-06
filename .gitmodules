@@ -55,3 +55,6 @@
 [submodule "bundle/yavin/vim-colorscheme-converter"]
 	path = bundle/yavin/vim-colorscheme-converter
 	url = git://github.com/kanru/vim-colorscheme-converter.git
+[submodule "bundle/DBGPavim"]
+	path = bundle/DBGPavim
+	url = https://github.com/brookhong/DBGPavim.git
