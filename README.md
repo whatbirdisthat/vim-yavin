@@ -15,7 +15,7 @@ just the actual TEXT.
 Yavin defines some keys and behaviours in `bundle/yavin/vimrc` that are
 geared towards use by those who don't like mice or bright lights.
 
-Browse the `bundle` dir to see which scripts are collected by
+Browse the [bundle](https://github.com/whatbirdisthat/vim-yavin/tree/master/bundle) dir to see which scripts are collected by
 Yavin.
 
 You might not always have all of these scripts enabled (eg why run
