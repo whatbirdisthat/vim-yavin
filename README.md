@@ -46,3 +46,16 @@ What Yavin needs:
 
         ... see this is where we just command-tab over to netbeans
 
+Gotchas:
+========
+
+* Sometimes the .vimrc file is not stored as utf-8. When running vim
+the error `E474 invalid argument: listchars= ...` appears on startup.
+
+This is fixed by opening the .vimrc, and saving it as a BOM UTF-8 file:
+
+        `:set fileencoding=utf-8`
+        
+        `:set bomb`
+        
+        `:w`
