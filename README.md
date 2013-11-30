@@ -54,8 +54,8 @@ the error `E474 invalid argument: listchars= ...` appears on startup.
 
 This is fixed by opening the .vimrc, and saving it as a BOM UTF-8 file:
 
-        `:set fileencoding=utf-8`
+        :set fileencoding=utf-8
         
-        `:set bomb`
+        :set bomb
         
-        `:w`
+        :w
