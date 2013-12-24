@@ -79,3 +79,9 @@
 [submodule "bundle/vim-node"]
 	path = bundle/vim-node
 	url = git://github.com/moll/vim-node
+[submodule "bundle/vim-stylus"]
+	path = bundle/vim-stylus
+	url = git://github.com/wavded/vim-stylus
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git
