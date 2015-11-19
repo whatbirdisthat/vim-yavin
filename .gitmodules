@@ -58,9 +58,6 @@
 [submodule "bundle/DBGPavim"]
 	path = bundle/DBGPavim
 	url = https://github.com/brookhong/DBGPavim.git
-[submodule "bundle/vim-literate-coffeescript"]
-	path = bundle/vim-literate-coffeescript
-	url = git://github.com/mintplant/vim-literate-coffeescript.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = git://github.com/tpope/vim-markdown.git
@@ -85,3 +82,9 @@
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "vim-vagrant"]
+	path = vim-vagrant
+	url = git://github.com/markcornick/vim-vagrant.git
+[submodule "bundle/vim-vagrant"]
+	path = bundle/vim-vagrant
+	url = git://github.com/markcornick/vim-vagrant.git
