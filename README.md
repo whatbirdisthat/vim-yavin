@@ -59,3 +59,4 @@ This is fixed by opening the .vimrc, and saving it as a BOM UTF-8 file:
         :set bomb
         
         :w
+
