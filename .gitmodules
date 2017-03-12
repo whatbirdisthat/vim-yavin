@@ -88,3 +88,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git@github.com:fatih/vim-go.git
+[submodule "bundle/elrodeo"]
+	path = bundle/elrodeo
+	url = git://github.com/chmllr/vim-colorscheme-elrodeo.git	
