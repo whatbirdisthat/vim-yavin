@@ -67,4 +67,5 @@ let g:dgbPavimPort = 9000
 let g:dbgPavimBreakAtEntry = 0
 
 "set tags=tags;/
+let g:syntastic_cpp_compiler_options = ' -std=c++0x'
 
