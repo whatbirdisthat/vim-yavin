@@ -1,90 +1,90 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
+	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/vim-afterimage"]
 	path = bundle/vim-afterimage
-	url = git://github.com/tpope/vim-afterimage.git
+	url = https://github.com/tpope/vim-afterimage.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
-	url = git://github.com/tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
-	url = git://github.com/tpope/vim-abolish.git
+	url = https://github.com/tpope/vim-abolish.git
 [submodule "bundle/vim-vividchalk"]
 	path = bundle/vim-vividchalk
-	url = git://github.com/tpope/vim-vividchalk.git
+	url = https://github.com/tpope/vim-vividchalk.git
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
-	url = git://github.com/tpope/vim-endwise.git
+	url = https://github.com/tpope/vim-endwise.git
 [submodule "bundle/vcscommand"]
 	path = bundle/vcscommand
-	url = git://github.com/vim-scripts/vcscommand.vim.git
+	url = https://github.com/vim-scripts/vcscommand.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
-	url = git://github.com/scrooloose/nerdcommenter.git
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
+	url = https://github.com/godlygeek/tabular.git
 [submodule "bundle/gundo"]
 	path = bundle/gundo
-	url = git://github.com/sjl/gundo.vim.git
+	url = https://github.com/sjl/gundo.vim.git
 [submodule "bundle/quickfixsigns"]
 	path = bundle/quickfixsigns
-	url = git://github.com/tomtom/quickfixsigns_vim.git
+	url = https://github.com/tomtom/quickfixsigns_vim.git
 [submodule "bundle/yavin/vim-colorscheme-converter"]
 	path = bundle/yavin/vim-colorscheme-converter
-	url = git://github.com/kanru/vim-colorscheme-converter.git
+	url = https://github.com/kanru/vim-colorscheme-converter.git
 [submodule "bundle/DBGPavim"]
 	path = bundle/DBGPavim
 	url = https://github.com/brookhong/DBGPavim.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = git://github.com/tpope/vim-markdown.git
+	url = https://github.com/tpope/vim-markdown.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
+	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "vim-jade"]
 	path = vim-jade
-	url = git://github.com/digitaltoad/vim-jade
+	url = https://github.com/digitaltoad/vim-jade
 [submodule "vim-stylus"]
 	path = vim-stylus
-	url = git://github.com/wavded/vim-stylus
+	url = https://github.com/wavded/vim-stylus
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
-	url = git://github.com/fholgado/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim
 [submodule "bundle/vim-node"]
 	path = bundle/vim-node
-	url = git://github.com/moll/vim-node
+	url = https://github.com/moll/vim-node
 [submodule "bundle/vim-stylus"]
 	path = bundle/vim-stylus
-	url = git://github.com/wavded/vim-stylus
+	url = https://github.com/wavded/vim-stylus
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
-	url = git://github.com/digitaltoad/vim-jade.git
+	url = https://github.com/digitaltoad/vim-jade.git
 [submodule "vim-vagrant"]
 	path = vim-vagrant
-	url = git://github.com/markcornick/vim-vagrant.git
+	url = https://github.com/markcornick/vim-vagrant.git
 [submodule "bundle/vim-vagrant"]
 	path = bundle/vim-vagrant
-	url = git://github.com/markcornick/vim-vagrant.git
+	url = https://github.com/markcornick/vim-vagrant.git
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
-	url = git@github.com:fatih/vim-go.git
+  url = https://github.com/fatih/vim-go.git
